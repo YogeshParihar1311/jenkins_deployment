@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def test(r):
-    return HttpResponse("<h1>Jenkins Deployment CI/CD Completed</h1>")
+    return HttpResponse("<h1>Jenkins Deployment CI/CD Completed Successfully.</h1>")
